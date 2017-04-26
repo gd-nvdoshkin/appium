@@ -1,6 +1,6 @@
 # Appium
 
-This framework was created for testing main scenarios of YandexMaps Android App.
+Framework was created for testing main scenarios of YandexMaps Android App.
 
 It's based on:
 1. Appium
