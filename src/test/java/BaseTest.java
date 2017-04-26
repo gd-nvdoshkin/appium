@@ -42,12 +42,9 @@ public class BaseTest {
 
     }
 
-
     @AfterClass(alwaysRun = true, groups = "default")
-    public void afterSuite(){
+    public void afterSuite() {
         driver.pressKeyCode(AndroidKeyCode.HOME);
         appiumServer.stopServer();
     }
-
-
 }

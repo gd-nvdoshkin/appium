@@ -3,9 +3,7 @@ import io.appium.java_client.android.AndroidElement;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
 import static org.junit.Assert.assertEquals;
-
 
 public class Step {
     public static final String username = "formobiletesting";

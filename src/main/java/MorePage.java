@@ -3,9 +3,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-/**
- * Created by nvdoshkin on 23/04/2017.
- */
 public class MorePage {
     WebDriver webDriver;
 

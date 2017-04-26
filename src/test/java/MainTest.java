@@ -1,4 +1,3 @@
-
 import io.appium.java_client.android.AndroidKeyCode;
 import org.openqa.selenium.By;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -8,8 +7,6 @@ import org.testng.annotations.Test;
 import java.net.MalformedURLException;
 
 public class MainTest extends BaseTest {
-
-
     @Test(groups = "mainPage")
     public void clickTrafficButton() throws MalformedURLException {
         step.clickOnTrafficButton();
@@ -61,7 +58,6 @@ public class MainTest extends BaseTest {
     @Test(dependsOnMethods = "logOut", groups = "default")
     public void createRoute() {
         step.createRoute();
-
     }
 
     @Test(dependsOnMethods = "createRoute", groups = "default")
